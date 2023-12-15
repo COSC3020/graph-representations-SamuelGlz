@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12553624&assignment_repo_type=AssignmentRepo)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -14,6 +15,9 @@ depend on the number of vertices, the number of edges, or both?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+
+The run time complexity for my conversion is $\theta$(|V|^2) because the fucntion convertToAdjList passes through the whole matrix, having to iterate through all the edjes
 
 ## Bonus
 
